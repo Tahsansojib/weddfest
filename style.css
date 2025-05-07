@@ -3,12 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #fff8f2;
+    background: #f8f8f8;
     color: #333;
 }
 header {
-    background-color: #ff6f61;
+    background: #8e44ad;
     color: white;
     padding: 20px;
     text-align: center;
@@ -17,12 +16,9 @@ section {
     padding: 20px;
 }
 footer {
-    background-color: #222;
+    background: #222;
     color: white;
     text-align: center;
     padding: 10px;
 }
-a {
-    color: #ffb347;
-    text-decoration: none;
-}
+a { color: #ccc; text-decoration: none; margin: 0 5px; }
