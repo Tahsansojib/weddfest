@@ -1,0 +1,57 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weddfest - Capturing Moments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Capturing Moments,<br>Creating Memories</h1>
+      <button>EXPLORE</button>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-buttons">
+      <button>PHOTOGRAPHY</button>
+      <button>VIDEOGRAPHY</button>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <h2>Testimonial</h2>
+    <p>“Excellent quality, beautifully captured memories.”</p>
+    <span>- Ruhita Banerjee</span>
+  </section>
+
+  <section class="package">
+    <div class="details">
+      <h2>Silver Package</h2>
+      <h3>৳12,500</h3>
+      <ul>
+        <li>1 Photographer</li>
+        <li>1 Cinematographer</li>
+        <li>Fully Edited Photos</li>
+        <li>1 Full Haldi Video</li>
+        <li>1 Full Wedding Video</li>
+        <li>1 Haldi Teaser</li>
+        <li>1 Wedding Teaser</li>
+      </ul>
+    </div>
+    <form class="booking-form">
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Phone Number">
+      <input type="text" placeholder="Location/Venue">
+      <select>
+        <option>Photography</option>
+        <option>Cinematography</option>
+        <option>Both</option>
+      </select>
+      <button type="submit">BOOK NOW</button>
+    </form>
+  </section>
+</body>
+</html>
