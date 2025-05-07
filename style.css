@@ -7,7 +7,7 @@ body {
 }
 
 .hero {
-  background: url('your-image.jpg') center/cover no-repeat;
+  background: url(DSC07690.jpg') center/cover no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
