@@ -1,24 +1,85 @@
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f8f8f8;
-    color: #333;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f9f0eb;
+  color: #6e3d2b;
 }
-header {
-    background: #8e44ad;
-    color: white;
-    padding: 20px;
-    text-align: center;
+
+.hero {
+  background: url('your-image.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
 }
-section {
-    padding: 20px;
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
-footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 10px;
+
+.hero-content {
+  position: relative;
+  z-index: 1;
 }
-a { color: #ccc; text-decoration: none; margin: 0 5px; }
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: #f2dfd6;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.gallery, .testimonial, .package {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.gallery-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background: #f2dfd6;
+  border: 1px solid #c89f90;
+  cursor: pointer;
+}
+
+.package {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.package .details, .booking-form {
+  width: 45%;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.booking-form input, .booking-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.booking-form button {
+  width: 100%;
+  padding: 10px;
+  background: #d49c85;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
